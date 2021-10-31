@@ -5,7 +5,7 @@ My favorite code quote, "<span id="k">Build fast, Code big</span>". <!-- sjkfhsk
 Hello World👋 I am Vedant Thapa!<!-- laglaglaglaglaglaglaglaglaglaglaglag --><p>I'm currently pursuing my Master's in Computing and Data Analytics @ Saint Mary's University, Halifax.</p>
 <p>I enjoy spending most of my time competing in hackathons related to Machine / Deep learning, other times I play soccer or improve my chess ratings.</p> <!-- ksjdokhdfgdufdfkjhfkjahdfkjhafkjhakf -->
 <p> I've worked as Data Analyst Intern wherein my role was to generate insights from the data and make it visually pleasing for the stakeholders.</p><!-- kjdhjhgdgldjhgdwtoiewotwotjdfkjdfffsf -->
-<p>Apart from English, I speak Python and I've compeleted few projects.<br> Do you wanna have a look?<a href="https://github.com/vedantthapa"> Here you go</a>.</p><!-- hsdgfhjfkdjhfkjsdhfkjdshfkjsdhfkjsdhkfjhdskjfhksdjhfkdsj -->
+<p>Apart from English, I speak Python and I've compeleted few projects.<br> Do you wanna have a look?<a href="/projects"> Here you go</a>.</p><!-- hsdgfhjfkdjhfkjsdhfkjdshfkjsdhfkjsdhkfjhdskjfhksdjhfkdsj -->
 <p> You can visit my other profiles, here: <br> <a href="https://www.linkedin.com/in/vedantthapa/">LinkedIn</a> <br> <a href="https://github.com/vedantthapa">GitHub</a> <br></p>
 
 If you would like to get in touch with me<!-- slightdelayhere-->, feel free to send me an email at <a href="mailto: thapavedant@gmail.com">thapavedant@gmail.com</a>.
