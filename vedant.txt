@@ -1,6 +1,6 @@
 <span id="a">vedant@thapa</span>:<span id="b">~</span><span id="c">$</span> cd Vedant/<!-- kjsdfhkjdhsfkjdshfkj -->About_Vedant
 <span id="a">vedant@thapa</span>:<span id="b">~</span><span id="c">$</span> cat <!-- kjsdfhkjdhsfkjdshfkj -->vedant.txt<br/><br/>
-My favorite code quote, "<span id="k">Build fast, Code big</span>". <!-- sjkfhskjf -->
+My favorite code quote, "<span id="k">Make it work, make it right, make it fast.</span>". <!-- sjkfhskjf -->
 
 Hello World👋 I am Vedant Thapa!<!-- laglaglaglaglaglaglaglaglaglaglaglag --><p>I'm currently pursuing my Master's in Computing and Data Analytics @ Saint Mary's University, Halifax.</p>
 <p>I enjoy spending most of my time competing in hackathons related to Machine / Deep learning, other times I play soccer or improve my chess ratings.</p> <!-- ksjdokhdfgdufdfkjhfkjahdfkjhafkjhakf -->
