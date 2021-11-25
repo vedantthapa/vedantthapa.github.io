@@ -1,4 +1,7 @@
-# Mahindra First Choice Services (MFCS) Project
+---
+title: Mahindra First Choice Services (MCFS) Business Analysis
+published: true
+---
 
 Mahindra First Choice Services (MFCS) is a company of Mahindra Group and is India’s leading chain of multi-brand car workshops with over 335+ workshops present in 267+ towns & 24 states. It has serviced over 10,50,000 cars. The company aims to establish countrywide network of over 400 workshops by March 2018.
 Mahindra would now like to leverage the data that they have and address the key issues they have. Read along to know how you can help them improve their business.
@@ -45,7 +48,7 @@ display_all(invoice_df.head(3))
 print(f'Shape of the raw DataFrame: {invoice_df.shape}')
 ```
 
-<div>
+<div class="table-wrapper" markdown="block">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -313,6 +316,7 @@ print(f'Shape of the raw DataFrame: {invoice_df.shape}')
     </tr>
   </tbody>
 </table>
+
 </div>
 
 
@@ -328,7 +332,7 @@ print(f'Shape of the cleaned DataFrame: {invoice_cleaned.shape}')
 ```
 
 
-<div>
+<div class="table-wrapper" markdown="block">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -440,6 +444,8 @@ print(f'Shape of the cleaned DataFrame: {invoice_cleaned.shape}')
     </tr>
   </tbody>
 </table>
+
+</div>
 </div>
 
 
@@ -520,7 +526,7 @@ With this we are ready to approach our first problem statement!
 
 ## Ownership patterns
 
-### [INSERT PLOTLY PLOT HERE]
+{% include post1-fig1.html %}
 
 The plot above aids us in comprehending our customer base. Before charting, the data was filtered by the `cust type` column to only include retail customers, as the ownership pattern can only be identified when the consumer owns the automobile.
 
@@ -546,9 +552,9 @@ invoice_cleaned['service_time'] = invoice_cleaned['InvoiceDateTime'] - invoice_c
 invoice_cleaned["service_time_hrs"]=invoice_cleaned["service_time"]/np.timedelta64(1, 'h')
 ```
 
-#### [INSERT PLOTLY PLOT HERE]
+To determine the frequency and average service time, the above figure was created by grouping on the `order type` column and getting the average and count of the `service_time_hrs` column. To decrease the impact of outliers, the median was utilised to calculate the average.
 
-To determine the frequency and average service time, the above figure was created by grouping on the 'order type' column and getting the average and count of the `service_time_hrs` column. To decrease the impact of outliers, the median was utilised to calculate the average.
+{% include post1-fig2.html %}
 
 After the above-mentioned aggregations, the plot reveals that a substantial percentage of our customer population (about 80%) visits our plant for running repairs and paid services. Running repairs often take roughly 6 hours to complete, whereas paid services typically take a day to complete. Accidental repairs take a long time to complete, which might be correlated to the magnitude of the damage or the availability of parts.
 
@@ -556,13 +562,13 @@ We can probably reduce the service times by knowing the nature of the visit befo
 
 Let's analyze whether location plays a role in the time taken to complete a service.
     
-![png](main_files/main_43_1.png)
+![jpeg](../assets/post1/service-time-make-state-fig3.jpeg)
     
  Considering Maruti Suzuki, the most frequent car across states, we observe that the average service time in Telangana is relatively high. The second most popular brand - Mahindra & Mahindra, usually takes a day on average to complete the service.
 
 It would be interesting to check if there is a seasonal trend in the number of incoming customers.
     
-![png](main_files/main_50_1.png)
+![jpeg](../assets/post1/orders-month-fig4.jpeg)
 
 The heatmap above displays the various sorts of orders that have been received over the months. Over the years, we've seen that the majority of mechanical orders occur around January and August. Customers visiting a factory for paid service or running repairs, the two most typical forms of orders, do not follow a seasonal pattern.
 
@@ -570,7 +576,7 @@ Since there's no seasonal trend in the orders received, MFCS can stock up their 
 
 Let's have a look at the customer arrive times over the dataset at a particular day. These arrival times are calculated based on the `JobCardDateTime` column.
     
-![png](main_files/main_53_1.png)
+![jpeg](../assets/post1/arrival-times-fig5.jpeg)
 
 The majority of consumers arrive between 9 a.m. and 12 p.m. After 12 p.m., there is a downward tendency. This may assist MFCS in organising their labour force so that customers receive prompt help during peak hours.
 
@@ -578,7 +584,7 @@ The majority of consumers arrive between 9 a.m. and 12 p.m. After 12 p.m., there
 
 Let's have a look at the revenue generated over the years and it's respective streams. We will also look at Parts-to-Labour ratio which is the ratio of labor sales to parts sold. The parts-to-labor ratio provides insight into how much a company's revenue is derived from services performed and how much depends on selling parts. MFCS managers can use parts-to-labor ratio to make informed decisions on how much to charge for labor and parts.
 
-![png](main_files/main_60_0.png)
+![jpeg](../assets/post1/bump-fig6.jpeg)
 
 The graph above depicts how revenue has evolved over the years. We only look at the top six states (MH, TN, KA, RJ, TL, UP) because they contribute the most to overall revenue.
 
@@ -588,7 +594,7 @@ Parts-to-labor ratio is equal to parts sales divided by labor sales. For example
 
 According to Bob O'Connor of Motor Magazine, a parts-to-labor ratio in the range of 0.8 to 1 is considered normal for the auto repair industry. If the parts-to-labor ratio exceeds 1, it means parts sales account for a greater proportion of total revenue than labor sales, which indicates that a shop is charging too little for labor or too much for parts.
     
-![png](main_files/main_65_0.png)
+![jpeg](../assets/post1/ratio-make-fig7.jpeg)
 
 We can see from the diagram above that MFCS is charging too much for parts and too little for labour on majority of the automobiles. 
 
@@ -596,7 +602,7 @@ Given that our dataset consists primarily of labor-intensive running repairs and
 
 Finally let's have a look at different sources of customers
 
-![png](main_files/main_70_1.png)
+![jpeg](../assets/post1/origin-customer-fig8.jpeg)
 
 The origin of MFCS's client population can be seen in this graph. As can be observed, referrals account for about half of the total clients. The remaining 50% of clients come via marketing techniques such as hosting camps/workshops or placing ads in newspapers, television, and other media.
 
