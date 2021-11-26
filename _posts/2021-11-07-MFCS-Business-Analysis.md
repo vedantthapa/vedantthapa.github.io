@@ -38,6 +38,8 @@ require(['plotly'], function(Plotly) {
 });
 }
 </script>
+
+### [[Show me the Code]](https://github.com/vedantthapa/Mahindra-Business-Analysis)
 ---
 <br>
 Starting out with the project, a quick glance at the data will reveal that there are a number of columns that aren't relevant to the problem statement.
@@ -445,7 +447,6 @@ print(f'Shape of the cleaned DataFrame: {invoice_cleaned.shape}')
   </tbody>
 </table>
 
-</div>
 </div>
 
 
