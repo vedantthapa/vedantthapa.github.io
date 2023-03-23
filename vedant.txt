@@ -4,9 +4,9 @@ My favorite code quote, "<span id="k">Make it work, make it right, make it fast.
 
 Hello World👋 I am Vedant Thapa!<!-- laglaglaglaglaglaglaglaglaglaglaglag -->
 <div class="center-justified">
-I'm currently pursuing my Master's in Computing and Data Analytics @ Saint Mary's University, Halifax.
+I'm currently working as a Data Scientist @ Statistics Canada. 
 
-Previously, I've worked as Data Analyst Intern at multiple start-ups wherein my primary role was to surf datasets quickly, encountering and surfacing potential insights. Also, present this information to the stakeholders using effective plots to allow the mind to extract details faster. 
+I recently graduated from Saint Mary's University, Halifax with a Master's degree in Computing and Data Analytics. Previously, I've worked as Data Analyst Intern at multiple start-ups wherein my primary role was to surf datasets quickly, encountering and surfacing potential insights. Also, present this information to the stakeholders using effective plots to allow the mind to extract details faster.
 
 I enjoy spending most of my time competing in hackathons related to Machine / Deep learning, other times I play soccer or improve my chess ratings. In short, I do a bunch of things: ML, Computer Vision, reading, contemplating, you get the idea.
 
